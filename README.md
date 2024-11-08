@@ -32,6 +32,21 @@ graph TD
     style F fill:#ff9,stroke:#333,stroke-width:2px
 ```
 
+### Ecosistema GoAstra PRO Ads
+
+```mermaid
+sequenceDiagram
+    participant A as Ads
+    participant S as Sistema
+    participant E as E-commerce
+    
+    A->>S: Click en Anuncio
+    S->>E: Tracking Parameters
+    E->>S: Evento de Visita
+    E->>S: Evento de Compra
+    S->>A: Optimización
+```
+
 ### Jerarquía de Reglas
 
 El sistema opera bajo una jerarquía clara basada en prioridades:
